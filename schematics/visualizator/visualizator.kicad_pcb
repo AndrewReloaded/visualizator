@@ -35,14 +35,14 @@
 
   (setup
     (last_trace_width 1)
-    (trace_clearance 1)
+    (trace_clearance 0.5)
     (zone_clearance 1)
     (zone_45_only no)
     (trace_min 0.2)
     (segment_width 0.2)
     (edge_width 0.15)
-    (via_size 0.8)
-    (via_drill 0.4)
+    (via_size 1.8)
+    (via_drill 0.6)
     (via_min_size 0.4)
     (via_min_drill 0.3)
     (uvia_size 0.3)
@@ -125,10 +125,10 @@
   (net 32 "Net-(R7-Pad2)")
 
   (net_class Default "This is the default net class."
-    (clearance 1)
+    (clearance 0.5)
     (trace_width 1)
-    (via_dia 0.8)
-    (via_drill 0.4)
+    (via_dia 1.8)
+    (via_drill 0.6)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net "Net-(C1-Pad1)")
@@ -1048,9 +1048,9 @@
   (segment (start 83.82 59.69) (end 83.82 64.77) (width 1) (layer B.Cu) (net 30))
   (segment (start 62.23 60.96) (end 66.04 60.96) (width 1) (layer B.Cu) (net 31))
   (segment (start 77.47 57.28863) (end 77.47 58.42) (width 1) (layer B.Cu) (net 32))
+  (segment (start 73.66 50.8) (end 74.79137 50.8) (width 1) (layer B.Cu) (net 32))
   (segment (start 77.47 53.47863) (end 77.47 57.28863) (width 1) (layer B.Cu) (net 32))
   (segment (start 74.79137 50.8) (end 77.47 53.47863) (width 1) (layer B.Cu) (net 32))
-  (segment (start 73.66 50.8) (end 74.79137 50.8) (width 1) (layer B.Cu) (net 32))
 
   (zone (net 13) (net_name "Net-(C1-Pad1)") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads yes (clearance 1))
