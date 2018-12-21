@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:test-cache
+LIBS:visualizator-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -171,7 +171,7 @@ U 1 1 5C142A1B
 P 7050 4000
 F 0 "C3" H 7165 4046 50  0000 L CNN
 F 1 "0,1uF" H 7165 3955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm" H 7088 3850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.5mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7088 3850 50  0001 C CNN
 F 3 "~" H 7050 4000 50  0001 C CNN
 	1    7050 4000
 	1    0    0    -1  

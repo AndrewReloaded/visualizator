@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:visualizator-cache
+LIBS:visualizator_v2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -82,7 +82,7 @@ U 1 1 5C141CB7
 P 6150 4200
 F 0 "SW2" V 6104 4348 50  0000 L CNN
 F 1 "PATTERN" V 6195 4348 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 6150 4400 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 6150 4400 50  0001 C CNN
 F 3 "" H 6150 4400 50  0001 C CNN
 	1    6150 4200
 	0    1    1    0   
@@ -93,7 +93,7 @@ U 1 1 5C141D4F
 P 5650 4200
 F 0 "SW1" V 5604 4348 50  0000 L CNN
 F 1 "COLOR" V 5695 4348 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 5650 4400 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 5650 4400 50  0001 C CNN
 F 3 "" H 5650 4400 50  0001 C CNN
 	1    5650 4200
 	0    1    1    0   
@@ -109,7 +109,7 @@ U 1 1 5C14226C
 P 6650 3650
 F 0 "RV1" H 6581 3604 50  0000 R CNN
 F 1 "10k" H 6581 3695 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 6650 3650 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6650 3650 50  0001 C CNN
 F 3 "~" H 6650 3650 50  0001 C CNN
 	1    6650 3650
 	-1   0    0    1   
@@ -125,7 +125,7 @@ U 1 1 5C142931
 P 7750 2400
 F 0 "RV2" H 7681 2354 50  0000 R CNN
 F 1 "10k" H 7681 2445 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 7750 2400 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7750 2400 50  0001 C CNN
 F 3 "~" H 7750 2400 50  0001 C CNN
 	1    7750 2400
 	-1   0    0    1   
