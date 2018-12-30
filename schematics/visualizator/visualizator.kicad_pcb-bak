@@ -541,8 +541,8 @@
     )
   )
 
-  (module Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm (layer F.Cu) (tedit 5AEE5F67) (tstamp 5C24AF62)
-    (at 90.74 40.97 90)
+  (module Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm (layer F.Cu) (tedit 5AEE5F67) (tstamp 5C1FBD86)
+    (at 90.3 40.97 90)
     (descr "Wire solder connection")
     (tags connector)
     (path /5C1557B8)
