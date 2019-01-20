@@ -1390,4 +1390,3 @@ void test() {
   setADCFreeRunning();
   while (digitalRead(PATTERN_BUTTON_PIN) == LOW); // wait for release
 }
-
